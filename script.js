@@ -1,6 +1,6 @@
 const YOUR_NAME = 'Pông';
 const FILE_NAME = 'xxxxxxbegau.mp4';
-var FILE_AUDIO = 'nana_ouyang_the_best_for_you_cover_ft_redza_3624858308691825042.mp3';
+var FILE_AUDIO = '78b1d42bf01a216ea8cea9569fe68da5.jpg';
 
 const $ = document.querySelector.bind(document);
 
