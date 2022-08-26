@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "New Tab",
+	"version": "1.0",
+	"description": "newtab",
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	},
+	"incognito": "split",
+	"permissions": [
+		"activeTab"
+	]
+}
