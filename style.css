@@ -66,6 +66,7 @@ body {
 
 .greetings {
   font-size: 2rem;
+  border: 2px dotted #F0FFFF;
 }
 
 

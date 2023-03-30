@@ -54,13 +54,15 @@ const $ = document.querySelector.bind(document);
 
 })();
 
-
+function myFunction() {
+  location.replace("https://begaupong2302.github.io/test.html")
+}
 
 function calcTime() {
   const now = new Date();
   const nowx = new Date(2022, 10, 3);
   let ampm  = 'AM',
-      sal   = ' ',
+      sal   = 'Touch here',
       hours = now.getHours(),
       mins  = now.getMinutes();
   
