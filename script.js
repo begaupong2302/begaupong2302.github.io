@@ -55,30 +55,41 @@ const $ = document.querySelector.bind(document);
 })();
 
 
-/*
+
 function calcTime() {
   const now = new Date();
+  const nowx = new Date(2022, 10, 3);
   let ampm  = 'AM',
       sal   = ' ',
       hours = now.getHours(),
       mins  = now.getMinutes();
+  
+  let daya = now.getDate();
+      montha = now.getMonth();
+      yeara = now.getFullYear();
+  
+  let dayx = nowx.getDate();
+      monthx = nowx.getMonth();
+      yearx = nowx.getFullYear();
 
-  hours > 12 && (sal = ' ');
-  hours < 5 && (sal = ' ');
-  hours > 18 && (sal = ' ');
-  hours > 11 && hours < 24 && (ampm = 'PM');
-  hours > 12 && (hours -= 12);
-  hours < 10 && (hours = '0' + hours);
-  mins  < 10 && (mins = '0' + mins);
+  
+
+  // hours > 12 && (sal = ' ');
+  // hours < 5 && (sal = ' ');
+  // hours > 18 && (sal = ' ');
+  // hours > 11 && hours < 24 && (ampm = 'PM');
+  // hours > 12 && (hours -= 12);
+  // hours < 10 && (hours = '0' + hours);
+  // mins  < 10 && (mins = '0' + mins);
 
   render(hours, mins, sal, ampm);
 }
 
 function render(hours, mins, sal, ampm) {
-  $('.time').innerText = `${hours}:${mins}`;
-  $('.ampm').innerText = ampm;
+  // $('.time').innerText = `${hours}:${mins}`;
+  // $('.ampm').innerText = ampm;
   $('.greetings').innerText = `${sal}`;
 }
 
 setInterval(calcTime, 500);
-*/
+
