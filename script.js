@@ -58,11 +58,15 @@ function myFunction() {
   location.replace("https://begaupong2302.github.io/test.html")
 }
 
+// document.addEventListener("click", function(){
+//   document.getElementById("demo").replace = "https://begaupong2302.github.io/test.html")
+// });
+
 function calcTime() {
   const now = new Date();
   const nowx = new Date(2022, 10, 3);
   let ampm  = 'AM',
-      sal   = 'Touch here',
+      sal   = '',
       hours = now.getHours(),
       mins  = now.getMinutes();
   
@@ -87,11 +91,11 @@ function calcTime() {
   render(hours, mins, sal, ampm);
 }
 
-function render(hours, mins, sal, ampm) {
-  // $('.time').innerText = `${hours}:${mins}`;
-  // $('.ampm').innerText = ampm;
-  $('.greetings').innerText = `${sal}`;
-}
+// function render(hours, mins, sal, ampm) {
+//   // $('.time').innerText = `${hours}:${mins}`;
+//   // $('.ampm').innerText = ampm;
+//   $('.greetings').innerText = `${sal}`;
+// }
 
 setInterval(calcTime, 500);
 
