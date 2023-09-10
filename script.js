@@ -55,7 +55,7 @@ const $ = document.querySelector.bind(document);
 })();
 
 function myFunction() {
-  location.replace("https://begaupong2302.github.io/test.html")
+  location.replace("./test.html")
 }
 
 // document.addEventListener("click", function(){
