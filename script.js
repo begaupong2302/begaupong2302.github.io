@@ -54,9 +54,15 @@ const $ = document.querySelector.bind(document);
 
 })();
 
-function myFunction() {
-  location.replace("./test.html")
+// async function myFunction() {
+//   await new Promise(r => setTimeout(r, 3000));
+//   location.replace("./test.html")
+// }
+
+function Redirect() {
+  window.location="./test.html";
 }
+setTimeout('Redirect()', 3000);
 
 // document.addEventListener("click", function(){
 //   document.getElementById("demo").replace = "https://begaupong2302.github.io/test.html")
